@@ -1,0 +1,20 @@
+{
+  "name": "assignment-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:witsawa-corporation/assignment-backend.git",
+  "author": "ak1103dev <ak.apichan1103@gmail.com>",
+  "license": "Unlicense",
+  "scripts": {
+    "start": "NODE_ENV=production node .",
+    "dev": "NODE_ENV=development nodemon ."
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.3",
+    "nodemon": "^1.18.9"
+  }
+}

@@ -1,0 +1,20 @@
+version: '3'
+services:
+  db:
+    image: mongo
+    volumes:
+      - mongo-data:/data/db
+  api:
+    image: node:8-alpine
+    command: npm run dev
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8080"
+    links:
+      - db
+    depends_on:
+      - db
+volumes:
+  mongo-data:
