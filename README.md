@@ -2,6 +2,10 @@
 
 ## API Docs
 
+now host on url <https://assignment-api.dev.witsawa.com>
+
+example usage: GET <https://assignment-api.dev.witsawa.com/transactions>
+
 - `GET /users/:id` - get user information by user ID
 
   Example: `GET /users/5c39f8e9d7f40f00a448a97e` - get user information that user ID is equal 5c39f8e9d7f40f00a448a97e
